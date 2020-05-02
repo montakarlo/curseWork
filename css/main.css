@@ -1,0 +1,31 @@
+.header{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+h4, input, button {
+  margin: 7px;
+  padding: 5px;
+}
+li {
+ list-style-type: none;
+}
+ul {
+ margin: 0;
+ padding: 0;
+}
+
+.sizes{
+  width: 200px;
+  height: 170px;
+  margin: 10px;
+  }
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

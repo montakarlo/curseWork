@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+
+  <link rel="stylesheet" href="css/lightgallery.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- <script src="teamplates/js/lg-thumbnail.min.js"></script> -->
+  <script src="teamplates/js/jquery-1.11.2.min.js"></script>
+  <script src="teamplates/js/lightgallery.js"></script>
+  <script src="teamplates/js/script.js"></script>
+  <script src="teamplates/js/defer.js" defer></script>
+  <script src="php.php" defer></script>
+
+</head>
+
+<body>
+  <div class="header">
+    <h4>Введите путь картинки, которую хотите добавить</h4>
+    <input type="text" id="txt"/>
+    <button onclick="pow2()">Добавить картинку</button>
+  </div>
+
+
+  <div class="content">
+    <ul id="lightgalery" class="gallery">
+      <li data-src="img/1.jpg" data-sub-html="Picture">
+        <a href="7">
+          <img class="sizes" src="img/1.jpg"/>
+        </a>
+      </li>
+
+      <li data-src="img/2.jpg" data-sub-html="Picture">
+        <a href="7">
+          <img class="sizes" src="img/2.jpg"/>
+        </a>
+      </li>
+
+      <li data-src="img/3.jpg" data-sub-html="Picture">
+        <a href="7">
+          <img class="sizes" src="img/3.jpg"/>
+        </a>
+      </li>
+
+      <li data-src="img/4.jpg" data-sub-html="Picture">
+        <a href="7">
+          <img class="sizes" src="img/4.jpg"/>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</body>
+</html>
